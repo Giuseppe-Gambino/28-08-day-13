@@ -29,6 +29,7 @@ form.onsubmit = function (event) {
 
   function Taskfatta() {
     titoloC.style.textDecoration = "line-through";
+    card.className = "cardfatta";
   }
 
   buttElimina.addEventListener("click", Delete);

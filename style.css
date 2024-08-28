@@ -71,3 +71,9 @@ button {
   font-size: 1em;
   margin: 5px;
 }
+
+.cardfatta {
+  background-image: url(../asset/tick.png);
+  background-size: cover;
+  background-position: center;
+}
