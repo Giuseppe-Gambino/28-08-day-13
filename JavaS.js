@@ -12,31 +12,31 @@ form.onsubmit = function (event) {
   card.id = `card`;
   const task = document.createElement("div");
   task.id = `task`;
+
+  //   testo
   const titoloC = document.createElement("p");
   titoloC.innerText = nome.value;
+
+  //   button fatto
   const buttFatto = document.createElement("button");
   buttFatto.id = `fatto`;
   buttFatto.type = `button`;
   buttFatto.innerText = `Fatto!`;
-
+  // button elimina
   const buttElimina = document.createElement("button");
   buttElimina.id = `elimina`;
   buttElimina.type = `button`;
   buttElimina.innerText = `Elimina!`;
 
   //   funzioni button
-  buttFatto.addEventListener("click", Taskfatta);
-
-  function Taskfatta() {
+  buttFatto.addEventListener("click", (Taskfatta) => {
     titoloC.style.textDecoration = "line-through";
     card.className = "cardfatta";
-  }
+  });
 
-  buttElimina.addEventListener("click", Delete);
-
-  function Delete() {
+  buttElimina.addEventListener("click", (Delete) => {
     card.remove();
-  }
+  });
 
   //   assegnazione elementi task
   body.appendChild(card);
