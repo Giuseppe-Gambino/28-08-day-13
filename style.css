@@ -1,0 +1,73 @@
+body {
+  background-color: #199788;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+#conteiner,
+#card {
+  height: 100px;
+  width: 320px;
+  margin-inline: auto;
+  margin-top: 10%;
+  color: gray;
+  background-color: white;
+  vertical-align: middle;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #43434373;
+}
+
+#conteiner div {
+  text-align: left;
+  width: 270px;
+  height: 50px;
+  padding-block: 25px;
+  margin: auto;
+}
+
+#conteiner label {
+  display: block;
+}
+
+#nome {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+button {
+  margin-inline: 5px;
+  background-color: #23dfc9;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 4px 4px 10px #d4d4d4;
+}
+
+#card {
+  display: inline-block;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-inline: 5px;
+}
+
+#card div {
+  text-align: left;
+  vertical-align: middle;
+  width: 270px;
+  height: 50px;
+  padding-block: 25px;
+  margin: auto;
+}
+
+#card div p {
+  font-size: 1em;
+  margin: 5px;
+}
